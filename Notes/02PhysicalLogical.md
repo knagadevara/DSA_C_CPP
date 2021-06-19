@@ -1,7 +1,9 @@
+### Data-Structures
+--------------------
+
 There are two types of Data-Structures which are supported by multiple programming languages.
 
 #### Physical
--------------
 These are ment for holding/storing the data inside memory.
 
 -   Array
@@ -15,10 +17,7 @@ These are ment for holding/storing the data inside memory.
     -   Size can be increased and decreased.
     -   All the nodes of LL are always created in a Heap with a pointer to Head node in stack.
 
-
-
 #### Logical
-------------
 These are ment to articulate a the dicipline followed to insert/delete/search/sort data values in structures. Implemented by using Array, LinkedList's
 
 -   Linear DS
@@ -32,9 +31,12 @@ These are ment to articulate a the dicipline followed to insert/delete/search/so
 -   Tabular
     -   Hash Table
 
-#### Premitive Data Type
-------------------------
--    character
+
+### Data-Types
+--------------
+Generally used in all sects of structural/OOP languages, where one can use or create a desired data-type with representation and set of valid operations.
+
+#### Premitive 
 
 Integer.
 
@@ -54,20 +56,19 @@ Integer.
             x >= 10 ;  // logical operators for comparission..
             x++ ; // increment decrement.
 
-#### Abstract Data Type
------------------------
-Generally used in OOP Classes, where one can create a desired data-type with representation and set of valid operations.
+
+#### Abstract
 
 List.
 
 1.  Representation of Data. [How Data is stored]
 - It can be done through an Array or a 'linked list' which satisfies the below,
-  - Space for storing elements
-  - Maximum Capacity
+    - Space for storing elements
+    - Maximum Capacity
 
 2.  Operations on Data. [What are the allowed operations on Data].
 - Operations which can be performed.
- - adding/append elements
- - removing elements
- - searching elements
- - sorting elements
+    - adding/append elements
+    - removing elements
+    - searching elements
+    - sorting elements
