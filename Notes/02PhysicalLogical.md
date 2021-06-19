@@ -23,17 +23,13 @@ These are ment to articulate a the dicipline followed to insert/delete/search/so
 
 -   Linear DS
 
-    -   Stack  
-
-    -   Queues
-
+    -   Stack - LIFO
+    -   Queues - FIFO
 
 -   Non-Linear DS
 
-    -   Trees
-
-    -   Graph
-
+    -   Trees - Heirarchy
+    -   Graph - Collection on Nodes, links between nodes.
 
 -   Tabular
 
