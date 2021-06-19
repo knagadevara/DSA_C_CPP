@@ -45,3 +45,12 @@ RAM is known as Primary memory and it is divided into 3 parts,
 -   Heap memory is un-organized memory which is not owned by the executing program so it cannot be accessed directly, but indirectly by allocating memory using (malloc,calloc or new) and returning the pointer to an specific data-type variable. 
 -   This memory should be deemed as a shared resource in the system, which is availavle to multiple other programs/scripts/rotines/functions.
 -   All the memory which has been allocated should be deallocated with the use of functions like free(), delete() or by de-initializing through a distructor.
+-   THe memory consumed by a pointer is equal to the integer **sizeOf(int)** which is different for different architectures. And it will be created inside the stack-frame of the function which initialized it.
+
+        // Cpp  syntax, 'new' keyword creates an integer array of size 5 in Heap memory, then saves its first(starting) address in pointerToIntegerArray variable.
+            pointerToIntegerArray = new int[5] ; // explicitly request for allocation
+            delete []pointerToIntegerArray; // explicitly request for de-allocation
+
+        // C syntax: There multiple different ways to create heap variables in C, checkout 
+            https://github.com/knagadevara/cBaseSystems/tree/master/01Prog
+
