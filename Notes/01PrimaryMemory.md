@@ -2,13 +2,13 @@
 ------------------
 
 RAM is known as Primary memory and it is divided into 3 parts,
--   Stack Block [Static Allocation]
--   Heap Block [Dynamic Allocation]
--   Text Block [Instruction Loader]
+-   Stack Section [Static Allocation]
+-   Heap Section [Dynamic Allocation]
+-   Code/Text Section [Instruction Loader]
 
 
 
-#### Stack Block [Static Allocation]
+#### Stack Section [Static Allocation]
 
 -   Variables, Functions will be created inside the stack with a virtual diision between them.
 -   This portion is known as Stack Frame/Activation Record and the required memory is calculated at compiletime and allocated at runtime. Hence it is called **Static**.
@@ -40,7 +40,7 @@ RAM is known as Primary memory and it is divided into 3 parts,
                     finction1()
                 }
 
-#### Heap Block [Dynamic Allocation]
+#### Heap Section [Dynamic Allocation]
 
 -   Heap memory is un-organized memory which is not owned by the executing program so it cannot be accessed directly, but indirectly by allocating memory using (malloc,calloc or new) and returning the pointer to an specific data-type variable. 
 -   This memory should be deemed as a shared resource in the system, which is availavle to multiple other programs/scripts/rotines/functions.
@@ -54,3 +54,8 @@ RAM is known as Primary memory and it is divided into 3 parts,
         // C syntax: There multiple different ways to create heap variables in C, checkout 
             https://github.com/knagadevara/cBaseSystems/tree/master/01Prog
 
+
+#### Code/Text Section
+
+-   All the Code will be loaded
+-   Static/Global variables will be created
