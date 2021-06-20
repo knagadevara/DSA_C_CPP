@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void ascendingFuncCal(int x) // Tail Recursion
+void ascendingFuncCal(int x) // Linear Tail Recursion
     {
         if( x > 0)
         {
@@ -10,7 +10,7 @@ void ascendingFuncCal(int x) // Tail Recursion
         }
     }
 
-void descendingFuncCal(int x) // Head Recursion
+void descendingFuncCal(int x) // Linear Head Recursion
     {
         if( x > 0)
         {
@@ -20,7 +20,7 @@ void descendingFuncCal(int x) // Head Recursion
         }
     }
 
-void FuncCal(int x)
+void FuncCal(int x) // Linear Recursion
     {
         if( x > 0)
         {

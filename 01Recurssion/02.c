@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // if a function is an operand and part of an expression it always gets evaluated in the  returning
-int ascendingFuncCal(int x) // Tail Recursion with local variable
+int ascendingFuncCal(int x) //  Recursion with local variable
     {
         if( x > 0)
         {
@@ -15,14 +15,14 @@ int ascendingFuncCal(int x) // Tail Recursion with local variable
 
 
 int it_x = 0; // global variable which gets created in code section, the value remains the same even after execution of the function.
-int functionFactorial(int x)
+int functionFact(int x)
     {
         if (x > 0) 
         {
             it_x ++;
             printf("Before call  x: %d\n" , x) ;
             printf("Before call  it_x: %d\n" , it_x) ;
-            int fact = functionFactorial(x - 1) + it_x ;
+            int fact = functionFact(x - 1) + it_x ;
             printf("After call  x: %d\n" , x) ;
             printf("After call  it_x: %d\n" , it_x) ;
             return fact;
@@ -30,6 +30,12 @@ int functionFactorial(int x)
         return 0;
     }
 
+int funcNest(int n) // nested recursion
+    {
+        if(n > 100)
+            return n - 10;
+        return funcNest(funcNest(n+11));
+    }
 
 int main(void)
     {   
@@ -37,7 +43,7 @@ int main(void)
         int y = ascendingFuncCal(x);
         printf("%d\n" , y) ;
         printf("\n\n\n") ;
-        int z = functionFactorial(x);
+        int z = functionFact(x);
         printf("%d\n" , z) ;        
         return 0;
     }
