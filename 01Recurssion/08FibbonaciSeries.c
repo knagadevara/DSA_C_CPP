@@ -44,6 +44,7 @@ int memoizationFibSeries(int n)
                 FArray[n-2] = memoizationFibSeries(n-2);
          if(FArray[n-1] == -1)
                 FArray[n-1] = memoizationFibSeries(n-1);
+        FArray[n] = FArray[n-2] + FArray[n-1];
         return FArray[n-2] + FArray[n-1];
      }
     }
