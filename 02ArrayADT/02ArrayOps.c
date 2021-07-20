@@ -1,6 +1,5 @@
 #include "02ArrayOps.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "CommonLib64.h"
 
 //InsertItemSerially()
 void InsertItemSerially(struct CreateArray* CustomArray)

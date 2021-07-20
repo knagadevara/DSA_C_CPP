@@ -2,8 +2,10 @@
 #include "01CreateArray.h"
 #include "02ArrayOps.h"
 #include "03LinearSearch.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include "CommonLib64.h"
+
+// Command used to compile
+// gcc main.c 01CreateArray.c 02ArrayOps.c 03LinearSearch.c -o main.out -Wall
 
 int main(void)
     {

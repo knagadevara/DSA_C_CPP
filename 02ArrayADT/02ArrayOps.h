@@ -1,5 +1,3 @@
-// #include "ArrayDT.h"
-
 //InsertItemSerially()
 extern void InsertItemSerially(struct CreateArray* CustomArray);
 
