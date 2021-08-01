@@ -1,6 +1,5 @@
-#include "01CreateArray.h"
-#include "CommonLib64.h"
-
+#include "../include/CommonLib64.h"
+#include "../include/ArrayDT.h"
 
 //Creates an Array in the Heap.
 int* CreateHeapIntArray(int* SizeOfArray)

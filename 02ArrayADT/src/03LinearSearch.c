@@ -1,5 +1,5 @@
-#include "03LinearSearch.h"
-#include "CommonLib64.h"
+#include "../include/CommonLib64.h"
+#include "../include/ArrayDT.h"
 
 // Gradually increases the performance
 void SwapTrasnpose(struct CreateArray* CustomArray , int oldIndex , int newIndex)

@@ -1,8 +1,6 @@
-#include "ArrayDT.h"
-#include "01CreateArray.h"
-#include "02ArrayOps.h"
-#include "03LinearSearch.h"
-#include "CommonLib64.h"
+#include "../include/CommonLib64.h"
+#include "../include/ArrayDT.h"
+
 
 // Command used to compile
 // gcc main.c 01CreateArray.c 02ArrayOps.c 03LinearSearch.c -o main.out -Wall
