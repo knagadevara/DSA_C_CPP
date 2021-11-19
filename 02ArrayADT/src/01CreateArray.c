@@ -15,7 +15,7 @@ int* CreateHeapIntArray(int* SizeOfArray)
 //CreatesArray
 void DefineArray(struct CreateArray* CustomArray)
     {
-        printf("Enter the size of the array: ");
+        printf("Enter the size of the array[defaults to 4]: ");
         scanf("%d" , &CustomArray->ArraySize);
         printf("Set the length of the array: ");
         scanf("%d" , &CustomArray->ArrayLength);
