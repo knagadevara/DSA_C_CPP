@@ -15,7 +15,10 @@ int main(void)
         DeleteItem(&myArray , 9);
         SearchItemLinear(&myArray , 7);
         PrintContentsOfArray(&myArray);
+        ReverseArray(&myArray);
+        PrintContentsOfArray(&myArray);
         free(myArray.ArrayAddress);
+
         printf("Freeing memory after printing elements\n");
         return 0;
     }

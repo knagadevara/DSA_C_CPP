@@ -70,3 +70,17 @@ void SetItem(struct CreateArray* CustomArray , int index , int element)
         if(index >= 0 && index <= CustomArray->ArrayLength)
                 CustomArray->ArrayAddress[index] = element;
     }
+
+//Reverse the elements in the array
+void ReverseArray(struct CreateArray* CustomArray)
+    {
+        for (int i = 0 , j = CustomArray->ArrayLength - 1 ; i < j ; i++, j--)
+        {
+            SwapTrasnpose(CustomArray, i , j);
+        }
+        
+    }
+
+extern void LeftShiftItem(struct CreateArray* CustomArray);
+extern void RightShiftItem(struct CreateArray* CustomArray);
+extern void RotateItems(struct CreateArray* CustomArray);
