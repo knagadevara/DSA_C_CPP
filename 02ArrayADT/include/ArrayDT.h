@@ -45,6 +45,8 @@ extern int IterativeBinarySearchNumber(struct CreateArray* CustomArray , int ind
 extern int RecursiveBinarySearchNumber(struct CreateArray* CustomArray , int indexContent , int lowIndex , int highIndex);
 
 
+extern int GetItem(struct CreateArray* CustomArray , int index);
+extern void SetItem(struct CreateArray* CustomArray , int index , int element);
 
 
 #endif /* _ARRAY_DT_H_ */
